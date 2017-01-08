@@ -26,9 +26,14 @@ var paradigms = ['genetic', 'functional', 'object-oriented',
 		 'Hewitt\'s actor model', 'meta',
 		 'multiparadigm', 'turing machine'];
 
+// return random number smaller than num
+function randomNum(num) {
+    return Math.floor(Math.random() * num);
+}
+
 // return random El from array
 function randomEl(ary) {
-   return ary[Math.floor(Math.random()*ary.length)];
+    return ary[randomNum(ary.length)];
 }
 
 function randomProject() {
