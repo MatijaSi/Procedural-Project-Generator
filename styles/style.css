@@ -1,12 +1,40 @@
-p {
-    color: blue;
-    font-size: 10px;
-    width: 500px;
-    border: 2px solid black;
-    text-align: center;
-    background-color: green;
-    display: block;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
+header, footer, article {
+    clear: both;
+    width: 100%;
+    padding: 6em 0;
+    margin: 0;
+    border: none;
 }
 
+header, footer {
+    height: 20%;
+}
+
+header {
+    background-color: IndianRed;
+}
+
+article {
+    background-color: MediumPurple;
+    height: 60%;
+}
+
+footer {
+    background-color: DarkSeaGreen;
+}
+
+html {
+    font-family: arial;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+button {
+    clear: both;
+    border: none;
+    padding: 0.5em;
+    margin: 0;
+    background-color: MediumOrchid;
+    color: white;
+}
