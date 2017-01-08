@@ -17,6 +17,7 @@ header {
 article {
     background-color: MediumPurple;
     height: 60%;
+    padding: 8em 0;
 }
 
 footer {
